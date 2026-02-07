@@ -9,7 +9,7 @@ export const LINKS: LinkItem[] = [
   {
     id: 'whatsapp',
     title: 'Atendimento Personalizado',
-    subtitle: 'Fale com Dona Stela',
+    subtitle: 'Fale com Stela Modas',
     url: 'https://api.whatsapp.com/send/?phone=558591029937&text=Ol%C3%A1%21+Vim+pelo+seu+site.&type=phone_number&app_absent=0',
     icon: MessageCircle,
   },
