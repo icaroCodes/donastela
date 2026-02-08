@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { BRAND_NAME, BRAND_TAGLINE } from '../constants';
+import { BRAND_NAME, BRAND_TAGLINE, PROFILE_IMAGE } from '../constants';
 
 const Header: React.FC = () => {
   return (
@@ -15,12 +15,7 @@ const Header: React.FC = () => {
         whileHover={{ scale: 1.05, rotate: 5 }}
         transition={{ type: "spring", stiffness: 300, damping: 20 }}
       >
-        {/* Using a placeholder gradient since we don't have a real file, 
-            but keeping the img structure for when the user adds a real logo */}
-        <div className="w-full h-full rounded-full bg-luxury-black flex items-center justify-center text-white text-3xl font-serif">
-          SM
-        </div>
-        {/* <img src={PROFILE_IMAGE} alt={BRAND_NAME} className="w-full h-full object-cover rounded-full" /> */}
+        <img src={PROFILE_IMAGE} alt={BRAND_NAME} className="w-full h-full object-cover rounded-full" />
       </motion.div>
 
       <motion.h1 

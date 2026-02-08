@@ -3,7 +3,7 @@ import { LinkItem, SocialLink } from './types';
 
 export const BRAND_NAME = "Stela Modas";
 export const BRAND_TAGLINE = "Elegância em cada detalhe.";
-export const PROFILE_IMAGE = "https://picsum.photos/200/200"; // Placeholder for brand logo
+export const PROFILE_IMAGE = "logo_minimalista.png"; // Placeholder for brand logo
 
 export const LINKS: LinkItem[] = [
   {
