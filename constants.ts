@@ -1,9 +1,10 @@
 import { Instagram, MessageCircle, ShoppingBag, Globe, Mail, MapPin } from 'lucide-react';
 import { LinkItem, SocialLink } from './types';
+import logo from './logo_minimalista.png';
 
 export const BRAND_NAME = "Stela Modas";
 export const BRAND_TAGLINE = "Elegância em cada detalhe.";
-export const PROFILE_IMAGE = "logo_minimalista.png"; // Placeholder for brand logo
+export const PROFILE_IMAGE = logo;
 
 export const LINKS: LinkItem[] = [
   {
