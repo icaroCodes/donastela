@@ -18,14 +18,14 @@ export const LINKS: LinkItem[] = [
     id: 'instagram',
     title: 'Loja Online',
     subtitle: 'Compre com segurança e conforto',
-    url: 'https://www.instagram.com/stelamodasfm',
+    url: 'https://www.instagram.com/stela_moda_feminina/',
     icon: Globe,
   },
   {
     id: 'instagram',
     title: 'Siga no Instagram',
     subtitle: 'Inspirações diárias e novidades',
-    url: 'https://www.instagram.com/stelamodasfm',
+    url: 'https://www.instagram.com/stela_moda_feminina/',
     icon: Instagram,
   },
 ];
